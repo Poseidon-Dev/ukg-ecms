@@ -1,0 +1,13 @@
+.env
+*.env
+.venv
+env/
+
+dumps/
+dumps
+dumps/*
+
+test*
+test/*
+/test*
+
