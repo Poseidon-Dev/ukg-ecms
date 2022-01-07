@@ -7,8 +7,8 @@ UKG - ECMS Employee Record Integration is an application that maintains the chan
 **[Johnny Whitworth (@Poseidon-dev)](https://github.com/poseidon-dev)** 
 
 ## Requirements
-requests
-ecms-api - https://github.com/Poseidon-Dev/ecms-api
+- requests
+- ecms-api - https://github.com/Poseidon-Dev/ecms-api
 
 ## How to use Examples
 
