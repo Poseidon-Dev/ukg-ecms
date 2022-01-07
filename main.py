@@ -16,10 +16,10 @@ for record in records:
     for col, change in record['changes'].items():
         value = Lookup(col, change, record).lookup
         if value:
-            for v in value:
-                if v:
+            for val in value:
+                if val:
                     update = SQLQuery(HRTEMP).update()
-                    update.set(v['col'], v['result'])
+                    update.set(val['col'], val['result'])
                     employeeno = record['employee'].employee_number
                     companyno = Lookup(record=record).company_lookup()
                     update.filters(employeeno=employeeno, companyno=companyno)
