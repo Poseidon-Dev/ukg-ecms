@@ -70,6 +70,3 @@ SET DEPTNO = 'NEW' WHERE EMPLOYEENO = '12345' AND COMPANYNO = '1'
 
 If you need some help for something, please reach out to me directly or submit an issue and I'll get to it as soon as I can
 
-## Site
-
-https://poseidon-dev.github.io/ecms-api/
